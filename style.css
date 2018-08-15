@@ -1,0 +1,58 @@
+@font-face{
+   font-family:myfont;
+   src:url('Stoica-Brush.ttf');
+}
+h4{
+	text-align:center;
+	color:red;
+	text-decoration:underline;
+	text-transform:uppercase;
+	letter-spacing:5px;
+	text-shadow:3px 2px gray;
+	
+} 
+
+#one{
+	text-align:center;
+	color:blue;
+}
+
+#two{
+	text-align:right;
+	color:red;
+}
+.sai{
+	text-align:left;
+	color:yellow;
+}
+p{
+	font-family:myfont;
+}
+
+a{
+	font-family:myfont;
+	font-size:30px;
+	background-color:red;
+	text-decoration:none;
+	color:hotpink;
+}
+a:link{
+	color:red;
+}
+a:visited{
+	color:green;
+}
+
+a:hover{
+	color:hotpink;
+}
+ul{
+	list-style-type:disc;
+}
+table,td,th{
+	border:2px solid black;
+	padding:10px;	
+}
+img{
+	border:2px solid black'
+}

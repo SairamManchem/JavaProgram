@@ -1,0 +1,63 @@
+body{
+	padding:0px;
+	margin:0px;
+}
+
+@font-face{
+   font-family:myfont;
+   src:url('Stoica-Brush.ttf');
+}
+
+@font-face{
+	font-family:myfontone;
+	src:url('Facon.ttf');
+}
+h1{
+	font-family:myfont;
+	color:gray;
+	font-style:oblique;
+}
+
+p{
+	font-family:myfont;
+	text-align:center;
+	text-transform:capitalize;
+	font-size:25px;
+	color:yellow;
+}
+li{
+	float:left;
+	font-size:50px;
+	padding:10px;
+}
+ul{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+	font-family:myfontone;
+	color:green;
+}
+#sidebar{
+background:url("firstBack.jpg");
+position:absolute;
+width:20%;
+height:100%;
+}
+
+#navigation{
+background:url("secondBack.jpg");
+position:absolute;
+left:20%;
+width:80%;
+}
+
+#mainpage{
+	background:url("chai.jpg");
+	position:absolute;
+	left:20%;
+	width:80%;
+	top:10%;
+	height:90%;
+}
+
